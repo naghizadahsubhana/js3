@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+body .form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px 0 #ccc;
+          box-shadow: 0 0 10px 0 #ccc;
+  background-color: #fff;
+}
+
+body .form-container input[type="text"],
+body .form-container input[type="password"],
+body .form-container button {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  width: 300px;
+  height: 40px;
+  background: none;
+  color: #555;
+  -webkit-box-shadow: 5px 3px 2px 0px #ccc;
+          box-shadow: 5px 3px 2px 0px #ccc;
+  padding-left: 10px;
+}
+
+body .form-container button {
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+body .form-container button:hover {
+  background: #c0c0c0;
+  color: #000;
+}
+
+body .form-container .passwd-cont {
+  position: relative;
+}
+
+body .form-container .passwd-cont img {
+  position: absolute;
+  top: 2rem;
+  right: 14rem;
+  cursor: pointer;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
